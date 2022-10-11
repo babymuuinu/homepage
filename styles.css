@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'bubble_bobbleregular';
+    src: url('fonts/bubble/bubblebobble-rg3rx-webfont.woff2') format('woff2'),
+         url('fonts/bubble/bubblebobble-rg3rx-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+  background-color: #4E60F0;
+}
+
+nav {
+  background-color: #75D7F0;
+}
+
+
+/* Navigation Section  */
+
+#title {
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 0.5% 15%;
+}
+
+
+.nav-item-test a{
+  color: #FFF;
+  padding: 150px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0px 20px;
+}
+
+/* TITLE SECTION  */
+
+.item-pad {
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  letter-spacing: .10rem;
+}
+
+.item-pad-button {
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #FFF;
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  letter-spacing: .10rem;
+  width: 85px;
+}
+
+.title-col {
+  padding: 15% 0%;
+}
+
+.row-test {
+  display: none;
+}
+
+.col-lg-6 img {
+  width: 100%;
+}
+
+.button-custom {
+  background-color: #75D7F0;
+}
+
+.title-container {
+  color: #FFF;
+  text-align: center;
+  font-family: 'bubble_bobbleregular';
+  letter-spacing: .10rem;
+  margin: 5% auto;
+}
+
+.gradient-text {
+  background-image: linear-gradient(60deg, #FFB03A, #E21143);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Listed on Section */
+
+.listed {
+  background-color: #75D7F0;
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  color: #fff;
+}
+
+.list-padding {
+  padding: 15px 0px 40px;
+}
+
+.listed-title {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+/* About Section */
+
+#about {
+  background-color: #fff;
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  padding: 40px 15%;
+  letter-spacing: .1rem;
+}
+
+.h1-margin {
+  margin: 2% auto;
+  text-align: center;
+}
+
+.p-about {
+  text-align: center;
+}
+
+.center-test.col-lg-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+/* Mobile responsive */
+
+/* Title section */
+
+@media (min-width: 992px) and (max-width:1999.98px) {
+
+  .row-test {
+    display: flex;
+  }
+}
+
+.title-mobile {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width:991px) {
+  .title-mobile {
+    display: block;
+    padding-top: 30px 15%;
+  }
+
+  .title-mobile-img {
+    width: 100%;
+  }
+}
