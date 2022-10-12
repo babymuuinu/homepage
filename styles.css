@@ -109,6 +109,7 @@ nav {
   font-family: 'bubble_bobbleregular', arial , sans-serif;
   padding: 40px 15%;
   letter-spacing: .1rem;
+
 }
 
 .h1-margin {
@@ -124,10 +125,72 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-bottom: 50px;
+}
+
+/* Tokenomics Section */
+
+#tokenomics {
+  color: #fff;
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  padding: 40px 15%;
+  letter-spacing: .1rem;
 }
 
 
+/* Roadmap section */
+
+#roadmap {
+background-color: #75D7F0;
+font-family: 'bubble_bobbleregular', arial , sans-serif;
+color: #fff;
+height: 250px;
+}
+
+.roadmap-title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+/* Socials Section */
+
+#socials {
+  text-align: center;
+  background-color: #fff;
+  font-family: 'bubble_bobbleregular', arial , sans-serif;
+  letter-spacing: .1rem;
+  padding: 40px 0px;
+
+}
+
+.icon-custom {
+  font-size: 125px;
+}
+
+.icon-margin {
+  padding-top: 25px;
+}
+
+.tg {
+  color: #1D9DDA;
+}
+
+.twt {
+  color: #00ACEF;
+}
+
+.yt {
+  color: #FF2021;
+}
+
+.tik {
+  width: 200px;
+  height: auto;
+}
+
 /* Mobile responsive */
+
+
 
 /* Title section */
 
